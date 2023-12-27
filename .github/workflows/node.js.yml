@@ -25,11 +25,4 @@ jobs:
     - name: Run Tests
       run: npm test # Execute tests
       
-    - name: Deploy to Codespaces
-      run: |
-        echo "Configuring Codespaces environment..."  # Placeholder for Codespaces setup steps
-        # Add commands here to set up the Codespaces environment
-        # For instance, installing additional tools, configuring settings, or initializing databases
-        # Example commands:
-        # echo "Setting up database..."
-        npm run start
+    
