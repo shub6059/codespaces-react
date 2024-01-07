@@ -35,8 +35,8 @@ jobs:
     - name: Setup AWS CLI
       uses: aws-actions/configure-aws-credentials@v2
       with:
-        aws-access-key-id: ${{ secrets.AKIAZHRQUH2G7APNBIGZ }}
-        aws-secret-access-key: ${{ secrets.rppg404jFvN/3dxBlmb4q5G53yM6x54s01E6Lr50 }}
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: your-aws-region
 
     - name: Deploy to AWS Lightsail
