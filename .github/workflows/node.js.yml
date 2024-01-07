@@ -41,5 +41,5 @@ jobs:
 
     - name: Deploy to AWS Lightsail
       run: |
-        aws lightsail push-container-image --service-name your-lightsail-service-name --image your-docker-image-url
+        aws lightsail push-container-image --service-name node-lightsail-service-cicd --image node-docker-image-url --label ${{ secrets.NEW_AWS_LIGHTSAIL_LABEL }}
 
